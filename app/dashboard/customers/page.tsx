@@ -1,7 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-export default function Page() {
-  return (
-    <div>Customers Page</div>
-  )
+export default async function Page() {
+
+  return <div>Customers Page</div>;
 }
