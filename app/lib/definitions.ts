@@ -86,3 +86,14 @@ export type InvoiceForm = {
   amount: number;
   status: 'pending' | 'paid';
 };
+
+export type CustomerForm = {
+  id: string;
+  name: string;
+  email: string;
+  image_url: string;
+};
+
+export interface ValidationErrorsContainer<T> {
+  violations: T;
+}
